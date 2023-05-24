@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.highText{
+    color: #E23E57;
+    font-size: 10vh;
+}
+
+
+header{
+    background: black url("./Images/header.jpg") no-repeat center center ; 
+    background-blend-mode: screen;
+    background-size: cover;
+    height: 98vh;
+}
+
+.headerContainer{
+    display: grid;
+    grid-template-columns: 5vw auto;
+
+}
+
+.content{
+    height: 80vh;
+    padding: 0vh 5vw;
+}
+.content .top{
+    color: white;
+    font-size: 5vh;
+    font-weight: 800;
+    display: flex;
+    justify-content: end;
+    text-shadow: 2px 2px black;
+}
+
+.headerText{
+    position: relative;
+    top: 80%;
+    color: white;
+    opacity: 2;
+}
+
+.headerText h1{
+    text-shadow: -7px 3px black;
+    font-size: 9vh;
+    margin: 0%;
+}
+
+.headerText h2{
+    text-shadow: -3px 2px black;
+    font-size: 4vh;
+    font-weight: 200;
+}
+
+.aside{
+    position: relative;
+    top:20%;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+}
+
+.aside i{
+    color: rgb(218, 217, 217);
+    font-size: 3vw;
+    text-shadow: 2px 2px black;
+
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    color: white;
+    height: 80vh;
+    padding: 10vh;
+}
+
+main img{
+    height: 80vh;
+    border-radius: 50%;
+}
+
+main .details{
+    padding: 0vh 5vw;
+    display: flex;
+    align-items: center;
+}
+
+.details h2{
+    font-size: 4vh;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.projectCount ul{
+    list-style: none;
+    display: flex;
+}
+
+.projectCount li{
+    margin: 0vh 1vw;
+}
+.projectCount li h1{
+    font-weight: 100;
+    font-size: 5vh;
+
+}
+
+.ourWork{
+    background-color: rgb(66, 65, 65);
+    
+}
+.ourWork h1{
+display: flex;
+justify-content: center;
+padding: 5vh;
+color: white;
+font-size: 8vh;
+text-shadow: 2px 2px black;
+}
+
+.imageGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardConatiner{
+width: 18vw;
+height: 70vh;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+border-radius: 25px ;
+margin: 2%;
+}
+
+.cardConatiner img{
+    top: 0;
+    height: 70%;
+    width: auto;
+    align-items: center;
+}
+
+footer{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
